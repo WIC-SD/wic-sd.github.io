@@ -1,0 +1,53 @@
+# Basic
+title: 武梁丁
+subtitle: 未来
+description: 皓首穷经，绣口锦心真俊杰。青云有志，经天行地大文章。
+# 头像里面的标题
+avatarTitle: WIC
+# 头像里面的描述
+avatarDesc: 金融
+url: "http://wic-sd.github.io"
+
+# Comment
+comment:
+    disqus: leopard
+    # uyan: 2143225  # 有言id,登录有言官网申请
+
+# Social
+social:
+    github: Iydon
+    # twitter: 
+    mail: 11711217@mail.sustc.edu.com
+
+
+
+permalink: /:year/:month/:title/
+# Format
+highlighter: rouge
+
+textColor: #FF0000
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear
+
+# The blog button should not be removed.
+blog_button:
+    title: 博客主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 所有文章, description: archive, url: '/archive'}   
+    - {title: 标签, description: tags, url: '/tags'}      
+    - {title: 关于我, description: about, url: '/about'}      
+    
+
+# Pagination
+gems: [jekyll-paginate,jekyll-sitemap]
+paginate: 20
+paginate_path: "page/:num/"
+
+# Personal
+markdown: kramdown
+
+kramdown:
+  input: GFM
